@@ -1,8 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddTransient<MyCollectionSite.Models.CollectionItemRepository>();
+builder.Services.AddDbContext<MyCollectionSite.Models.CollectionContext>();
+    
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
