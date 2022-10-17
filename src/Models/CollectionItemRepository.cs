@@ -6,9 +6,9 @@ public class CollectionItemRepository
 {
     private readonly CollectionContext _Context;
 
-    public CollectionItemRepository(CollectionContext ctx)
+    public CollectionItemRepository(CollectionContext collectionCtx)
     {
-        _Context = ctx;
+        _Context = collectionCtx;
     }
 
  public IEnumerable<CollectionItem> Get()
