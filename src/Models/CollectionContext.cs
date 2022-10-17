@@ -25,7 +25,7 @@ public class CollectionContext : DbContext
                 Name = "Atari",
                 Description = "Black hat with the classic atari logo",
                 ImageURL = "https://hatcollection.blob.core.windows.net/hat-images/atari.jpg",
-                Acquired = new DateTime(2018,6,23)
+                Acquired = new DateTime(2018, 6, 23)
             },
             new CollectionItem
             {
