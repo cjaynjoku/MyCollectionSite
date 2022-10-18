@@ -53,3 +53,8 @@ C:\Users\Januarius\source\repos\CollectionSiteDemo\src\bin\Debug\net6.0\runtimes
 C:\Users\Januarius\source\repos\CollectionSiteDemo\src\obj\Debug\net6.0\MyCollectionSite.csproj.CopyComplete
 C:\Users\Januarius\source\repos\CollectionSiteDemo\src\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Januarius\source\repos\CollectionSiteDemo\src\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Januarius\source\repos\CollectionSiteDemo\src\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Januarius\source\repos\CollectionSiteDemo\src\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Januarius\source\repos\CollectionSiteDemo\src\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Januarius\source\repos\CollectionSiteDemo\src\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Januarius\source\repos\CollectionSiteDemo\src\obj\Debug\net6.0\MyCollectionSite.MvcApplicationPartsAssemblyInfo.cs
