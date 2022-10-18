@@ -1,5 +1,3 @@
-using System.Text.Json;
-
 namespace MyCollectionSite.Models;
 
 public class CollectionItemRepository
@@ -13,6 +11,16 @@ public class CollectionItemRepository
 
  public IEnumerable<CollectionItem> Get()
  {
-     return _Context.CollectionItems;   
+     return _Context.CollectionItems.ToArray();   
  }   
+
+ public CollectionItem FindById(int id)
+ {
+    var result = _Context.CollectionItems.Find(id);
+    
+    if(result is null) return CollectionItem.NotFound;
+    
+    return result;
+
+ }
 }

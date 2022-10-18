@@ -8,8 +8,11 @@
     <h1 class="display-4">My @Configuration["CollectionType_Plural"] Collection</h1>
 </div>
 
-@foreach (var item in @Model)
+@foreach (var item in Model)
 {
     <partial name="_ItemCard" model="item" />
+    
+
     // @Html.Partial("_ItemCard", item);
+
 }
